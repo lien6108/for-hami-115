@@ -25,6 +25,28 @@ For HAMI 115/
 
 入口：[student-agent-kit/README.md](student-agent-kit/README.md)
 
+## 如何安裝學生版 Pro-Kit
+
+`student-agent-kit` 是一個資料夾模板，不需要安裝套件；下載後複製成自己的學習工作台即可。
+
+### 方法一：下載 ZIP
+
+1. 開啟本 repo 的 GitHub 頁面，點選 **Code → Download ZIP**。
+2. 解壓縮後，將 `student-agent-kit` 複製到自己的文件資料夾。
+3. 將複製出來的資料夾改名，例如 `KMU-AI-Workspace`。
+4. 之後都從 `KMU-AI-Workspace` 開啟 AI 工具，不要直接從 `For HAMI 115` 根目錄開始。
+
+### 方法二：使用 Git
+
+```bash
+git clone https://github.com/lien6108/for-hami-115.git
+cd for-hami-115
+```
+
+接著將 `student-agent-kit` 複製成自己的資料夾，例如 `KMU-AI-Workspace`，再從該資料夾開啟 Claude Code 或 Codex。
+
+完整步驟與啟動提示詞請看：[student-agent-kit/README.md](student-agent-kit/README.md)。
+
 ### `cloud-card-template/`
 
 演講現場使用的第一個 Cloudflare Pages 靜態網站。學生可以修改自己的卡片內容，再部署到 `pages.dev`。
