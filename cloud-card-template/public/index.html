@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我的第一個雲端網站</title>
+<style>
+  :root { --bg: #f8fafc; --fg: #0f172a; --muted: #64748b; --card: #fff; --accent: #0284c7; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0f172a; --fg: #f1f5f9; --muted: #94a3b8; --card: #1e293b; --accent: #38bdf8; } }
+  * { box-sizing: border-box; margin: 0; }
+  body { min-height: 100vh; display: grid; place-items: center; padding: 16px; background: var(--bg); color: var(--fg);
+         font-family: "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif; }
+  .card { width: 100%; max-width: 440px; background: var(--card); border-radius: 18px; padding: 40px 32px;
+          box-shadow: 0 8px 30px rgba(15, 23, 42, .12); text-align: center; }
+  .emoji { font-size: 56px; }
+  h1 { margin-top: 12px; font-size: 32px; }
+  .meta { margin-top: 6px; color: var(--muted); }
+  .dream { margin-top: 24px; font-size: 20px; line-height: 1.6; color: var(--accent); font-weight: 700; }
+  footer { margin-top: 28px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+  <main class="card">
+    <!-- ✏️ 只要改下面這四行，改完按右上角 Commit changes 就好 -->
+    <div class="emoji">🚀</div>
+    <h1>你的名字</h1>
+    <p class="meta">高醫醫管資系・○ 年級</p>
+    <p class="dream">畢業後，我想成為＿＿＿＿的人</p>
+
+    <footer>這個網站跑在 Cloudflare 上，花費 NT$0</footer>
+  </main>
+</body>
+</html>

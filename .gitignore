@@ -1,0 +1,26 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# Dependencies and generated files
+node_modules/
+dist/
+build/
+__pycache__/
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary files and screenshots
+*.tmp
+screenshots/
+playwright-images/
