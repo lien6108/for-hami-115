@@ -29,22 +29,30 @@ KMU-AI-Workspace/
 
 請從這個複製出來的資料夾開始使用。不要直接修改 repo 裡的範本，也不要直接從 `For HAMI 115` 根目錄開啟 AI，因為學生版的 `AGENTS.md` 位於 `student-agent-kit` 裡面。
 
-### 3. 從學習工作台開啟 AI
+### 3. 用 Antigravity 開啟學習工作台（預設方式）
 
-使用桌面版時，新增任務或對話，選擇剛才建立的 `KMU-AI-Workspace` 資料夾。
+1. 開啟 Antigravity。
+2. 選擇開啟既有資料夾／工作區。
+3. 指定剛才建立的 `KMU-AI-Workspace` 資料夾。
+4. 確認目前工作區名稱是 `KMU-AI-Workspace`，不是下載下來的 `For HAMI 115` 根目錄。
+5. 在 Antigravity 的 Agent 對話中貼上下面的啟動提示詞。
 
-使用終端機時：
+Antigravity 是本 Starter Kit 的預設操作方式；學生不需要先使用終端機，也不需要先設定 Claude Code 或 Codex。
+
+### 4. 其他工具（選配）
+
+如果你已經熟悉終端機，也可以使用：
 
 ```bash
 cd /你的路徑/KMU-AI-Workspace
 
-# 依你使用的工具選一個
+# 依你使用的工具選一個；一般新生請優先使用 Antigravity
 claude
 # 或
 codex
 ```
 
-### 4. 完成第一次設定
+### 5. 完成第一次設定
 
 1. 開啟 `000_Profile/PROFILE.md`，填入科系、年級、本學期課程與學習目標。
 2. 閱讀 `AGENTS.md`，確認 AI 的學習、作業與個資安全規則。

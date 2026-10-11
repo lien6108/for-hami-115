@@ -34,7 +34,7 @@ For HAMI 115/
 1. 開啟本 repo 的 GitHub 頁面，點選 **Code → Download ZIP**。
 2. 解壓縮後，將 `student-agent-kit` 複製到自己的文件資料夾。
 3. 將複製出來的資料夾改名，例如 `KMU-AI-Workspace`。
-4. 之後都從 `KMU-AI-Workspace` 開啟 AI 工具，不要直接從 `For HAMI 115` 根目錄開始。
+4. 使用 Antigravity 開啟 `KMU-AI-Workspace` 作為工作區，不要直接從 `For HAMI 115` 根目錄開始。
 
 ### 方法二：使用 Git
 
@@ -43,9 +43,9 @@ git clone https://github.com/lien6108/for-hami-115.git
 cd for-hami-115
 ```
 
-接著將 `student-agent-kit` 複製成自己的資料夾，例如 `KMU-AI-Workspace`，再從該資料夾開啟 Claude Code 或 Codex。
+接著將 `student-agent-kit` 複製成自己的資料夾，例如 `KMU-AI-Workspace`，再用 Antigravity 開啟該資料夾。
 
-完整步驟與啟動提示詞請看：[student-agent-kit/README.md](student-agent-kit/README.md)。
+Claude Code、Codex 或終端機啟動方式屬於進階選項，請先確認自己已經熟悉該工具；完整的學生版安裝流程請看：[student-agent-kit/README.md](student-agent-kit/README.md)。
 
 ### `cloud-card-template/`
 
